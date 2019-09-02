@@ -28,6 +28,15 @@ public class Calculator {
    public double getSubstract(){
        return this.firstnumber - this.secondnumber;
    }
+
+   public double getMultiply(){
+       return this.firstnumber * this.secondnumber;
+
+   }
+
+   public double getDivide(){
+       return this.firstnumber / this.secondnumber;
+   }
 }
 
 

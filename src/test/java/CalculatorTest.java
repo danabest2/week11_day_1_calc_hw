@@ -36,4 +36,14 @@ public class CalculatorTest {
     public void hasSubstract(){
         assertEquals( 10.40, calculator.getSubstract(), 0.01);
     }
+
+    @Test
+    public void hasMultiply(){
+        assertEquals(208.58, calculator.getMultiply(), 0.01);
+    }
+
+    @Test
+    public void hasDivide(){
+        assertEquals(2.02, calculator.getDivide(), 0.01);
+    }
 }
